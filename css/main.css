@@ -1,0 +1,174 @@
+/* league-spartan-500 - latin */
+@font-face {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+    url("../fonts/league-spartan-v6-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/league-spartan-v6-latin-500.woff")
+      format("woff"); /* Modern Browsers */
+}
+/* league-spartan-700 - latin */
+@font-face {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("../fonts/league-spartan-v6-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/league-spartan-v6-latin-700.woff")
+      format("woff"); /* Modern Browsers */
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+}
+
+header {
+  background-image: url(../../homework-21/images/bg.png);
+  background-size: cover;
+  height: 156px;
+}
+
+.main {
+  padding-top: 76px;
+  padding-bottom: 120px;
+  background-color: #effafa;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.photosnap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 40px;
+  background: #ffffff;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+.photosnap:active {
+  /* background: #5ca5a5; */
+  border-left: 6px solid #5ca5a5;
+}
+
+.photosnap-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photosnap-desc {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.logo {
+  width: 88px;
+  height: 88px;
+  margin-right: 24px;
+}
+
+.photosnap-list {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+
+.photosnap-list-item {
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #5ca5a5;
+  background: #eff6f6;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.photosnap-list-item:hover {
+  color: #ffffff;
+  background: #5ca5a5;
+}
+
+.logo-name {
+  font-size: 14px;
+  line-height: 16px;
+  color: #5ca5a5;
+  margin-right: 16px;
+}
+
+.new {
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: -0.0846154px;
+  color: #ffffff;
+  background: #5ca5a5;
+  border-radius: 12px;
+  padding: 5px 8px;
+  margin-right: 16px;
+}
+
+.featured {
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: -0.0846154px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #2b3939;
+  border-radius: 12px;
+  padding: 5px 8px;
+}
+
+.logo-name {
+  font-size: 18px;
+  line-height: 24px;
+  color: #2b3939;
+}
+
+.title {
+  font-size: 18px;
+  line-height: 24px;
+  color: #2b3939;
+}
+
+.title:hover {
+  color: #5ca5a5;
+}
+.photosnap-data {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.115385px;
+  color: #7c8f8f;
+  margin-top: 8px;
+}
+.nuqta {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.115385px;
+  color: #7c8f8f;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+.photosnaplist-item {
+}
