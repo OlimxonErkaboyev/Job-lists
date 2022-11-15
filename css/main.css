@@ -31,7 +31,7 @@ body {
 }
 
 header {
-  background-image: url(../../homework-21/images/bg.png);
+  background-image: url(../images/bg.png);
   background-size: cover;
   height: 156px;
 }
@@ -103,7 +103,7 @@ header {
   background: #5ca5a5;
 }
 
-.logo-name {
+.logo_name {
   font-size: 14px;
   line-height: 16px;
   color: #5ca5a5;
