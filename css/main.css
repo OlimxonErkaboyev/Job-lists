@@ -43,7 +43,7 @@ header {
 }
 
 .container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
@@ -168,7 +168,4 @@ header {
   color: #7c8f8f;
   margin-right: 16px;
   margin-left: 16px;
-}
-
-.photosnaplist-item {
 }
